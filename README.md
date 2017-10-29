@@ -25,8 +25,13 @@ This will process any Sass (SCSS) files, translate ES6 to ES5 and launch a web b
 
 ## Approach
 
-
-
+- When user starts typing, we fetchresults based of his query, to stop making multiple calls on each keystroke we debounce the call.
+- If the typed word is a first entry we fetchresults for the query as it is.
+- Subsequent words or sent removing the previosly selected entries
+- Selected entries are appended to the search input
+- User can select through click or keyborad selection
+- Up and Down arrow selections are enabled. Can use Enter to select an entry
+ 
 
 ### License
 
