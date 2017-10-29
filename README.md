@@ -2,6 +2,8 @@
 
 Search Widget with multiselect
 
+### [Demo - Search](http://even-ray.surge.sh/)
+
 ## Setup
 
 Run `npm install` to set things up.
