@@ -23,7 +23,6 @@ window.search.inputWidget = function () {
       }, 200);
 
       $("#search-input").on("focus", function () {
-        $("#close-search").addClass("open");
         $(".nav-search").addClass("active");
         self.searchClearOnClose();
       })
@@ -35,6 +34,10 @@ window.search.inputWidget = function () {
       //   self.showResults("");
       // })
       .on("keyup", function (e) {
+        if (!$("#close-search").hasClass("open")) {
+          $("#close-search").addClass("open");
+        }
+
         var keyCode = e.keyCode;
         //console.log(keyCode);
         if (keyCode === 27 || keyCode === 38 || keyCode === 40) {
