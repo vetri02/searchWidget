@@ -24,6 +24,7 @@ This will process any Sass (SCSS) files, translate ES6 to ES5 and launch a web b
 ## Assumptions
 
 - User might not go in and edit the already selected value inbetween
+- Only user selections end up in the input
 
 ## Approach
 
