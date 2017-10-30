@@ -20,6 +20,13 @@ body {
   }
 }
 
+h1 {
+  font-size: 35vw;
+  position: absolute;
+  color: rgba(224, 224, 224, 0.17);
+  text-align: center;
+}
+
 .nav-search {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
